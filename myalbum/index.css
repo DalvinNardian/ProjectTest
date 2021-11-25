@@ -1,0 +1,21 @@
+body {
+    margin: 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+h1{
+    font-size: 1.4em;
+    color: #008000;
+}
+
+a {
+    color:  #008000;
+}
+
+th{
+    text-align: left;
+}
+
+th, td {
+    padding-right: 5px;
+}
