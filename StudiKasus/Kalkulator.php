@@ -74,8 +74,9 @@
    else if($opr == '/'){
     echo $num1." ".$opr." ".$num2." = ";  
     $hasil->Bagi($num1,$num2);
-   
-   }
+    }if ($num2 == 0){
+      echo "Tidak Bisa dibagi";
+    }
   ?>
   </center>
 </body>
